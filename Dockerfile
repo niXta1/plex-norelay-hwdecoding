@@ -1,4 +1,4 @@
-FROM plex-nvdec
+FROM linuxserver/plex
 
 # add scripts to modify plex binaries 
 COPY root/ /
