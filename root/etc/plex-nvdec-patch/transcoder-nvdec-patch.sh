@@ -14,7 +14,7 @@ Available codec options are:
   h264 (default)       H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
   hevc (default)       H.265 / HEVC (High Efficiency Video Coding)
   mpeg2video           MPEG-2 video
-  mpeg4                MPEG-4 part 2
+  mpeg1video           MPEG-1 video
   vc1                  SMPTE VC-1
   vp8  (default)       On2 VP8
   vp9  (default)       Google VP9"
@@ -55,7 +55,7 @@ while (( "$#" )); do
 done
 
 if [ ${#CODECS[@]} -eq 0 ]; then
-  CODECS=("h264" "hevc" "vp8" "vp9")
+  CODECS=("h264" "hevc" "mpeg1video" "mpeg2video" "vc1" "vp8" "vp9")
 fi
 
 if [ "$EUID" -ne 0 ]; then
