@@ -11,6 +11,4 @@ if (( FILESIZE < MAXSIZE )); then
   echo "Plex Transcoder is already patched for NVDEC-support, aborting patch."
 else
   sh /etc/plex-nvdec-patch/transcoder-nvdec-patch.sh
-  chmod 755 /usr/lib/plexmediaserver/Plex\ Transcoder
-  chmod u+x /usr/lib/plexmediaserver/Plex\ Transcoder
 fi
