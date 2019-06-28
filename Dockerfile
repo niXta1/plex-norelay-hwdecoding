@@ -1,4 +1,4 @@
-FROM linuxserver/plex
+FROM linuxserver/plex:latest
 
 # add scripts to modify plex binaries 
 COPY root/ /
