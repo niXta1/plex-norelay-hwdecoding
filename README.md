@@ -6,7 +6,7 @@ Based on Linuxserver.io Plex Media Server container with a few key differences.
 
 2. Experimental support for hardware decoding with Nvidia GPU (NVDEC) added.
 
-
+```
 docker run \
 -d \
 --net=host \
@@ -22,7 +22,7 @@ docker run \
 --restart=unless-stopped \
 --name=Plex \
 nixta/plex-nvdec
-
+```
 
 More info:
 [Instructions](https://hub.docker.com/r/linuxserver/plex/)
