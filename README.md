@@ -1,10 +1,10 @@
-# plex-norelay-hwdecoding
+# plex-nvdec
 
 Based on Linuxserver.io Plex Media Server container with a few key differences.
 
 1. 'Plex Relay' binary removed (indirect connection disabled).
 
-2. Experimental support for hardware decoding with Nvidia GPU (NVDEC) added.
+2. Support for hardware decoding with Nvidia GPU (NVDEC).
 
 
 To get hardware acceleration for Nvidia GPU's you need to install the container runtime provided by Nvidia on their host, instructions can be found here:
