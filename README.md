@@ -1,6 +1,6 @@
 # plex-nvdec
 
-Based on Linuxserver.io Plex Media Server container with two added benefits.
+Based on [Linuxserver.io Plex Media Server](https://hub.docker.com/r/linuxserver/plex/) container with two added benefits.
 
 1. 'Plex Relay' binary removed (indirect connection disabled, portfowrarding/UPNP only).
 
