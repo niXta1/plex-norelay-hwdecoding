@@ -32,4 +32,4 @@ nixta/plex-nvdec
 ```
 
 # More info about the base container:
-[Instructions](https://hub.docker.com/r/linuxserver/plex/)
+[linuxserver/plex](https://hub.docker.com/r/linuxserver/plex/)
