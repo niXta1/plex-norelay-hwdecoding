@@ -1,16 +1,17 @@
 # plex-nvdec
 
-Based on Linuxserver.io Plex Media Server container with a few key differences.
+Based on Linuxserver.io Plex Media Server container with two added benefits.
 
-1. 'Plex Relay' binary removed (indirect connection disabled).
+1. 'Plex Relay' binary removed (indirect connection disabled, portfowrarding/UPNP only).
 
 2. Support for hardware decoding with Nvidia GPU (NVDEC).
 
+# Enable GPU passthrough:
 
 To get hardware acceleration for Nvidia GPU's you need to install the container runtime provided by Nvidia on the host, instructions can be found here:
-
 https://github.com/NVIDIA/nvidia-docker
 
+# Docker run example:
 
 ```
 docker run \
@@ -30,5 +31,5 @@ docker run \
 nixta/plex-nvdec
 ```
 
-More info:
+# More info about the base container:
 [Instructions](https://hub.docker.com/r/linuxserver/plex/)
