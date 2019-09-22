@@ -1,3 +1,8 @@
+##!!! NOT NEEDED ANY MORE, PLEX HAS ADDED NATIVE NVDEC+NVENC TO PLEX MEDIA SERVER 1.17.0.1709+ !!!
+
+
+
+
 # plex-nvdec
 
 Based on [Linuxserver.io Plex Media Server](https://hub.docker.com/r/linuxserver/plex/) container with two added benefits.
